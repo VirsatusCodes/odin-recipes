@@ -11,10 +11,19 @@ p{
     text-align: center;
 }
 
-h1{
+h1, h2, h4, ol{
     text-align: center;
+
 }
 
 *{
     background-color: rgb(59, 241, 232);
 }
+
+li{
+    text-align: center;
+    list-style-position: inside;
+}
+
+/** still trying to line up the ul and eventually ol lists so the dots line 
+up in the center. **/
