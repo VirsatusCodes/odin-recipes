@@ -26,6 +26,8 @@ h1, h2, h4, ol{
 li{
     text-align: center;
     list-style-position: inside;
+    padding: 5px;
+    
 }
 .popout img:hover{
     transform: scale(1.15);
