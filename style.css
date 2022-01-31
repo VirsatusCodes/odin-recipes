@@ -14,8 +14,9 @@ p{
     font-family: 'Times New Roman', sans-serif
 }
 
-h1, h2, h4, ol{
+h1, h2, h4, li{
     text-align: center;
+    list-style-position: inside;
 
 }
 
@@ -23,12 +24,13 @@ h1, h2, h4, ol{
     background-color: rgb(59, 241, 232);
 }
 
-li{
-    text-align: center;
-    list-style-position: inside;
-    padding: 5px;
-    
+.sml{
+    padding: 3px;
+}  
+.lg{
+    padding: 8px;
 }
+
 .popout img:hover{
     transform: scale(1.15);
 }
